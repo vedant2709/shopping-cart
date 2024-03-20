@@ -1,0 +1,58 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+:root {
+  --text-clr: #4f4f4f;
+}
+
+p {
+  color: #6c757d;
+}
+
+a {
+  text-decoration: none;
+  color: var(--text-clr);
+}
+
+a:hover {
+  text-decoration: none;
+  color: var(--text-clr);
+}
+
+.product_img img {
+  min-width: 100px;
+  max-height: 100px;
+}
+
+.set_quantity {
+  position: relative;
+}
+
+.set_quantity::after {
+  content: "Min. order (1pc)";
+  width: auto;
+  height: auto;
+  position: absolute;
+  text-align: center;
+  bottom: -20px;
+  font-size: 0.8rem;
+}
+
+.page-link {
+  font-size: 12px;
+  font-weight: bold;
+}
+
+#textbox1,
+#textbox2 {
+  width: 40px;
+  text-align: center;
+}
+
+.remove_wish p,
+.card-title p {
+  font-size: 12px;
+}
